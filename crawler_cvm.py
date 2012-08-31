@@ -36,19 +36,19 @@ br.set_proxies({"http":"66.229.18.79:53066"})
 Reviewed-by: Vitor <vitor@vitor>
 
 # This url will be used just to validate the session and check for the doc type
-validation_url = "http://www.rad.cvm.gov.br/enetconsulta/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento="
+validation_url = ""
 
 # With this url it gets all the general information such like address, name, etc.
-dados_gerais_url = "http://www.rad.cvm.gov.br/enetconsulta/frmDadosGeraisConsultaNovo.aspx?NumeroSequencialRegistroCvm=1359&NumeroSequencialDocumento="
+dados_gerais_url = ""
 
-endereco_url = "http://www.rad.cvm.gov.br/enetconsulta/frmEnderecoConsultaNovo.aspx?NumeroSequencialDocumento="
+endereco_url = ""
 
 # If the document is the one showing little revenue information, this will be the
 # url to use
-info_finance_url = "http://www.rad.cvm.gov.br/enetconsulta/frmInformacoesFinanceirasFRE.aspx?NumeroSequencialDocumento="
+info_finance_url = ""
 
 # If the document has all the information, this will be the url to use
-dfs_url = "http://www.rad.cvm.gov.br/enetconsulta/frmDemonstracaoFinanceiraITR.aspx?Informacao=1&Periodo=0&Grupo=DFs+Individuais&Quadro=Balan%C3%A7o+Patrimonial+Ativo&NomeTipoDocumento=ITR&Titulo=menor&Empresa=nada&DataReferencia=31/03/2012&Versao=2&Demonstracao="
+dfs_url = ""
 
 # The first is used to show the 'Balanço Patrimonial Ativo' page
 # the other to show the 'Demonstração de Resultado' page
